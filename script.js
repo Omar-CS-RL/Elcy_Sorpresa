@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function revealNextMessage() {
         if (messageIndex < messages.length) {
             messages[messageIndex].style.opacity = 1; // Mostrar el mensaje actual
-            setTimeout(revealNextMessage, 1500); // Pasar al siguiente mensaje después de un tiempo
+            setTimeout(revealNextMessage, 2500); // Pasar al siguiente mensaje después de un tiempo
             messageIndex++;
         } else {
             // Mostrar el girasol y el mensaje final después de los mensajes
